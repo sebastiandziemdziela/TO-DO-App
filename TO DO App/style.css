@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background:rgba(92, 77, 35, 0.308);
+    
+
+
+
+}
+
+.main{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    min-height:100vh;
+    width: 500px;
+    background-color:rgb(209, 136, 47);
+}
+
+h1{
+    margin-left: 40px;
+}
+
+.main h1 img{
+    
+    width: 40px;
+
+    
+}
+
+.add-task{
+    padding-top: 20px;
+    margin: -5px;
+    width: 500px;
+}
+.add-task .a{
+    padding: 5px;
+    margin-bottom: -20px;
+    width: 80%;
+    white-space: inherit;
+
+   
+
+}
+.space{
+    padding-top: 10px;
+
+}
+.add-task h2 img{
+    width: 25px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.list{
+
+    margin-left: 40px;
+    margin-top: 40px;
+    max-width: 1300px;
+
+}
+
+ul li{
+    margin-bottom: 5px;
+    list-style: none;
+    font-size: 19px;
+    padding: 30px;
+    cursor: pointer;
+    border: 1px solid black; 
+    border-radius: 10px; 
+}
+ul li.checked{
+    color: #777;
+    text-decoration: line-through;
+}
+
+ul li img{
+    width: 35px;
+    float: right;
+}
